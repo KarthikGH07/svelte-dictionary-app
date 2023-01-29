@@ -14,7 +14,7 @@
 				<div class="audio">
 					<p>
 						{data.text}
-						<i class="fa fa-play-circle" on:click={() => playAudio(data.audio)} />
+						<button on:click={() => playAudio(data.audio)}><i class="fa fa-play-circle" /></button>
 					</p>
 				</div>
 			{/each}
@@ -44,6 +44,11 @@
 
 	.word-data .audios .audio {
 		padding: 8px 20px;
+	}
+
+	.word-data .audios .audio button {
+		background: transparent;
+		border: none;
 	}
 
 	.word-data .audios .audio i {
