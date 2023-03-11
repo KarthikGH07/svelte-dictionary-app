@@ -62,7 +62,7 @@
 	}
 
 	:global(body) {
-		font-family: 'Roboto', serif;
+		font-family: 'Inter', sans-serif;
 	}
 
 	.header {
